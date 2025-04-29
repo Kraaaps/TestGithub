@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+#taskInput {
+    padding: 10px;
+    font-size: 16px;
+}
+#addBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
+.removeBtn {
+    cursor: pointer;
+    color: red;
+}
